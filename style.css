@@ -118,8 +118,19 @@ a:hover {
     color:black;
 }
 .col-sm-12 .white{
-   
+   color:black;
     font-size:2.3rem;
+    background:white; 
+    
+}
+.credo1 {
+    font-size:2.2rem;
+}
+.credo2 {
+    font-size:1.8rem;
+}
+.credo3 p {
+    font-size:2.5rem;
 }
 
 .b-parallax {
