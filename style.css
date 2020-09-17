@@ -108,18 +108,19 @@ a:hover {
 .row a:visited{
     color:black;
 }
-.row p{
 
-    }
 .row .textonback p{
-    
+    font-size:3rem;
     color:white;
     
 }
 .col-xs-12 .article {
     color:black;
 }
-
+.col-sm-12 .white{
+   
+    font-size:2.3rem;
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -637,7 +638,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: black;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(91, 89, 89, 0.5);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -726,8 +727,8 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    max-width: 500px;
+    margin: auto;
 }
 
 h2 {
