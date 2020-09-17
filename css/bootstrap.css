@@ -235,10 +235,10 @@ th {
     *,
     :after,
     :before {
-        color: #000 !important;
-        text-shadow: none !important;
-        background: 0 0 !important;
-        -webkit-box-shadow: none !important;
+        color: #000 ;
+        text-shadow: none ;
+        background: 0 0 ;
+        -webkit-box-shadow: none ;
         box-shadow: none !important
     }
     a,
@@ -5103,8 +5103,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
         box-shadow: none
     }
     .navbar-collapse.collapse {
-        display: block !important;
-        height: auto !important;
+        display: block ;
+        height: auto ;
         padding-bottom: 0;
         overflow: visible !important
     }
@@ -5424,7 +5424,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
         float: left !important
     }
     .navbar-right {
-        float: right !important;
+        float: right ;
         margin-right: -15px
     }
     .navbar-right~.navbar-right {
