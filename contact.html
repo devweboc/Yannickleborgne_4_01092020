@@ -24,8 +24,13 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	<noscript>Votre navigateur ne supporte pas Javascript !</noscript>
-    <title>contact</title>
-
+	<title>contact</title>
+	
+	<a class="skip-link" href="index.html">Skip to main</a>
+	
+<main id="main">
+		
+</main>
     
 <!-- Analytics -->
  
@@ -33,6 +38,8 @@
     
 </head>
 <body>
+
+	
 <!-- Principal conteneur -->
 <div class="page-container">
     
@@ -84,27 +91,28 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" id="name" class="form-control" required/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="texte" id="email" class="form-control-file" type="email" required/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="connu">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input  id="connu" class="form-control-file" type="text" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" class="form-control-file" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -137,22 +145,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/?lang=fr"  target="_blank" rel="noopener">Twitter<span class="fa fa-twitter fa-2x" alternate="twitter icon"></span></a>
+							<a class="social" href="https://twitter.com/?lang=fr"  target="_blank" rel="noopener" aria-label="twitter"><span class="fa fa-twitter fa-2x" alternate="twitter icon"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://fr-fr.facebook.com/" target="_blank" rel="noopener">Facebook<span class="fa fa-facebook fa-2x" alternate="facebook icon"></span></a>
+							<a class="social" href="https://fr-fr.facebook.com/" target="_blank" rel="noopener" aria-label="facebook"><span class="fa fa-facebook fa-2x" alternate="facebook icon"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/" target="_blank" rel="noopener">Dribbble<span class="fa fa-dribbble fa-2x" alternate="dribble icon"></span></a>
+							<a class="social" href="https://dribbble.com/" target="_blank" rel="noopener" aria-label="dribbble"><span class="fa fa-dribbble fa-2x" alternate="dribble icon"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram<span class="fa fa-instagram fa-2x" alternate="instagram logo"></span></a>
+							<a class="social" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="instagram"><span class="fa fa-instagram fa-2x" alternate="instagram logo"></span></a>
 						</div>
 					</div>					
 				</div>

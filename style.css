@@ -8,7 +8,19 @@ body {
     color:black;
 
 }
-
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000000;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+  }
+  
+  .skip-link:focus {
+    top: 0;
+  }
 
 a,
 button {
@@ -742,6 +754,7 @@ p {
 .social {
     max-width: 500px;
     margin: auto;
+    padding-bottom:2rem;
 }
 
 h2 {
@@ -781,6 +794,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin:auto;
 }
 
 .portfolio-row {
@@ -864,6 +878,16 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+#message,
+#email,
+#name,
+#connu {
+    color:black;
+}
+.btn-lg {
+    color:black;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1065,6 +1089,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .row .tight-width-whitespace .portfolio-row {
+        justify-content: center;
     }
 }
 
